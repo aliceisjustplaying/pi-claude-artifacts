@@ -1,0 +1,10 @@
+{
+  "name": "pi-claude-artifacts",
+  "version": "0.1.0",
+  "description": "Pi extension that publishes claude.ai artifacts via Claude Code's built-in Artifact tool",
+  "keywords": ["pi-package"],
+  "license": "MIT",
+  "type": "module",
+  "pi": { "extensions": ["./extensions/claude-artifacts.ts"] },
+  "peerDependencies": { "@earendil-works/pi-ai": "*", "@earendil-works/pi-coding-agent": "*" }
+}
